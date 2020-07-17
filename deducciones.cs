@@ -28,7 +28,7 @@ namespace deducciones_salariales
             
             bcoti = salario * 0.4;
             
-            if (bcoti < 877803)
+            if (bcoti < smmlv)
             {
                 if (contrato == 2)
                 { 

@@ -11,14 +11,15 @@ namespace tarifacc
             
                 Console.WriteLine("ingrese el valor de su salario");
                 double salario = double.Parse(Console.ReadLine());
+                double smmlv = 877803;
 
-                if(salario < 1755604)
+                if(salario < (smmlv*2))
                 {
                     Console.WriteLine("La tarifa correspondiente a su pago es la tarifa A");
-                }else if(salario >= 1755604 && salario < 3511208)
+                }else if(salario >= (smmlv*2) && salario < (smmlv*4))
                 {
                     Console.WriteLine("La tarifa correspondiente a su pago es la tarifa B");
-                }else if(salario >= 3511208)
+                }else if(salario >= (smmlv*4))
                 {
                     Console.WriteLine("La tarifa correspondiente a su pago es la tarifa C");
                 }

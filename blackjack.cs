@@ -25,7 +25,7 @@ namespace blackjack
                 Console.WriteLine("presione 'c' para continuar o 'e' para salir");
                 String pedir = Console.ReadLine();
 
-                while (total <= 21 && pedir.Equals("c")){
+                while (total < 21 && pedir.Equals("c")){
 
                     Console.WriteLine("presione 'c' para pedir carta o 'e' para salir");
                     pedir = Console.ReadLine();
